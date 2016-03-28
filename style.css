@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+	color: #bababa;
+}
+
+html {
+	height: 100%;
+	background: white;
+	background-size: cover;
+}
+
+#calculator {
+	width: 325px;
+	height: auto;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: #bacad5;
+	border-radius: 3px;
+}
+
+.top span.clear {
+	float: left;
+}
+
+.top .screen {
+	height: 40px;
+	width: 212px;
+	background: white;
+	float: right;
+	padding: 0 10px;
+	border-radius: 3px;
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.nums, .top {overflow: hidden;}
+
+.nums span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	width: 66px;
+	height: 40px;
+	background: white;
+	border-radius: 3px;
+	margin: 0 7px 11px 0;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+span.operator {margin-right: 0;}
+
+.nums span.operator {
+	background: #00FFFF;
+	margin-right: 0;
+	color: white;
+}
+
+.nums span.eval {
+	background: #FFFF00;
+	color: white;
+}
+
+.top span.clear {
+	background: #FF00FF;
+	color: white;
+}
+
+.nums span.operator:hover {
+	background: #d3545d;
+	margin-right: 0;
+}
+
+.nums span.eval:hover {
+	background: #d3545d;
+}
+
+.top span.clear:hover {
+	background: #d3545d;
+}
+
+.nums span.operator:active {
+	background: #6b54d3;
+	margin-right: 0;
+}
+
+.nums span.eval:active {
+	background: #6b54d3;
+}
+
+.top span.clear:active {
+	background: #6b54d3;
+}
+
+
+
+
